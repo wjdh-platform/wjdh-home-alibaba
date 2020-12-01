@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+<link rel= "shortcut icon" media="all" type="image/x-icon" href="/favicon.ico" />
+<link rel= "icon" media="all" type="image/vnd.microsoft.icon" href="/favicon.ico" /><title>阿里巴巴集团</title>
+<link href="https://docs.alibabagroup.com/assets2/css/cn/jquery.swiper.css" rel="stylesheet" type="text/css">
+<link href="https://docs.alibabagroup.com/assets2/css/cn/easydropdown.css" rel="stylesheet" type="text/css">
+<link href="https://docs.alibabagroup.com/assets2/css/cn/magnific-popup.css" rel="stylesheet" type="text/css">
+<link href="https://docs.alibabagroup.com/assets2/css/cn/reset.css" rel="stylesheet" type="text/css">
+<link href="https://docs.alibabagroup.com/assets2/css/cn/style.css?20201126135" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+    <link href="https://docs.alibabagroup.com/assets2/css/cn/style_1024.css?20201126135" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="https://docs.alibabagroup.com/assets2/css/cn/style_1024.css?20201126135" rel="stylesheet" type="text/css" media="screen and (min-width:960px)" />
+<link href="https://docs.alibabagroup.com/assets2/css/cn/style_768.css?20201126135" rel="stylesheet" type="text/css" media="screen and (max-width:959px) and (min-width:768px)" />
+<link href="https://docs.alibabagroup.com/assets2/css/cn/style_320.css?20201126135" rel="stylesheet" type="text/css" media="screen and (max-width:767px)" />
+
+
+<link href="https://docs.alibabagroup.com/assets2/css/cn/style_mobile_nav.css" rel="stylesheet" type="text/css" media="screen and (max-width:767px)" />
+
+
+<link href="https://docs.alibabagroup.com/assets2/css/cn/style_1024.css?20201126135" rel="stylesheet" type="text/css" media="print" />
+<link href="https://docs.alibabagroup.com/assets2/css/cn/print.css" rel="stylesheet" type="text/css" media="print" />
+<script type="text/javascript" src="https://docs.alibabagroup.com/assets2/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://docs.alibabagroup.com/assets2/js/jquery-ui.min.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/jquery.easydropdown.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/jquery.scrollTo.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/jquery.cycle2.min.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/jquery.swiper-2.0.min.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/jquery.swiper.hashnav.min.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/jquery.appear.js"></script>
+<!--<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a28d3b0c39e878"></script>-->
+<script src="https://docs.alibabagroup.com/assets2/js/highcharts/highcharts.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/highcharts/modules/exporting.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/highcharts/themes/grid.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/highcharts/plugin/appear_animate.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/jquery.redirect.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/jquery.magnific-popup.min.js"></script>
+<script src="https://docs.alibabagroup.com/assets2/js/common.js"></script>
+
+</head>
+<body><script>!(function(c,b,d,a){c[a]||(c[a]={});c[a].config={pid:"ggcvhz3u94@8f03de3e59271b7",appType:"web",imgUrl:"https://arms-retcode.aliyuncs.com/r.png?",enableSPA:true,useFmp:true,sendResource:true};with(b)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("crossorigin","",src=d)})(window,document,"https://retcode.alicdn.com/retcode/bl.js","__bl");</script>
+<div class="headerWrapper">
+	<div class="header clearfix">
+		<div class="logo"><a href="../global/home"><img src="https://docs.alibabagroup.com/assets2/images/cn/global/logo_header.png"></a></div>
+        <div class="fright">
+            <div class="search"> 
+                <div class="searchWrapper">
+                <form class="jqtransform" method="get" action="../global/search.php" name="subSearchForm">
+				    <input type="hidden" name="filter" value="0" />
+					<input type="hidden" name="lang" value="cn" />
+                    <input type="text" id="search" name="q" placeholder="搜寻阿里巴巴集团">
+                    <button type="submit" id="submitSearch">搜索</button>
+				</form>
+                </div>
+            </div>
+            <div class="selectWrapper offering">
+            	<div class="defaultText">阿里巴巴集团相关平台  &nbsp;</div>
+               	<select id="offering" class="dropdown" onchange="javascript:offeringDropDown(this.value);">
+                    <option value="http://www.tmall.com/">天猫</option>
+                    <option value="http://www.taobao.com/">淘宝</option>
+                    <option value="http://www.freshhema.com/">盒马</option>
+                    <option value="http://www.alihealth.cn/">阿里健康</option>
+                    <option value="http://www.1688.com/">1688.com</option>
+                    <option value="https://lst.1688.com/">零售通</option>
+                    <option value="http://www.aliexpress.com/">全球速卖通</option>
+                    <option value="https://group.lazada.com/">Lazada集团</option>
+                    <option value="https://www.kaola.com/">考拉海购</option>
+                    <option value="http://www.alibaba.com/">阿里巴巴国际站</option>
+                    <option value="http://www.ele.me/">饿了么</option>
+                    <option value="https://www.koubei.com/">口碑</option>
+                    <option value="https://www.fliggy.com/">飞猪</option>
+                    <option value="http://www.youku.com/">优酷</option>
+                    <option value="http://www.alibabapictures.com/">阿里影业</option>
+                    <option value="https://www.damai.cn/">大麦</option>
+                    <option value="https://www.amap.com/">高德地图</option>
+                    <option value="https://www.dingtalk.com/">钉钉</option>
+                    <option value="http://www.cainiao.com/">菜鸟网络</option>
+                    <option value="http://www.alimama.com/">阿里妈妈</option>
+                    <option value="http://www.antgroup.com/">蚂蚁集团</option>
+                    <option value="http://www.aliyun.com/">阿里云</option>
+                    <option value="http://www.alisports.com/">阿里体育</option>
+                    <option value="http://www.ent-fund.org/">阿里巴巴创业者基金</option>
+                    <option value="https://agi.alibaba.com/">阿里巴巴全球创新部</option>
+        	    </select>
+            </div>
+            <div class="selectWrapper lang">
+                <select id="lang" class="dropdown" onchange="javascript:changeLanguage(this.value);">
+                    <option  value="en">EN</option>
+                    <option selected value="cn">简</option>  
+                    <option  value="tc">繁</option>                    
+                </select>
+            </div>
+		</div>
+    </div>
+    
+    <div class="headerMobile clearfix">
+    	<a href="../global/home" id="logoMobile"></a>
+        
+        <a href="javascript:;" id="navBtnMobile"></a>
+        <div id="langMobileArea">
+            <select id="langMobile" class="dropdown" onchange="javascript:changeLanguage(this.value);">
+                <option  value="en">EN</option>
+                <option selected value="cn">简</option>       
+                <option  value="tc">繁</option>                
+            </select>
+        </div>
+    </div>
+</div>
+<div class="nav">
+	<ul class="menu">
+    	<li id="mobileSearchBox">
+        	<div id="mobileSearchBoxArea">
+                <form class="jqtransform" method="get" action="../global/search.php" name="subSearchForm">
+				    <input type="hidden" name="filter" value="0" />
+					<input type="hidden" name="lang" value="cn" />
+                    <input type="text"  class="mobileSearch"  id="search" name="q" placeholder="搜寻阿里巴巴集团">
+                    <input type="submit" class="mobileSearchSubmit" value="" title="Search">
+                </form>
+            </div>
+        </li>
+    	<li><span>关于我们</span>
+        	<div class="submenuWrapper">
+            	<div class="submenuContainer">
+                	<ul class="submenu">
+	                	<li><a href="../about/overview">公司简介</a></li>
+    	            	<li><a href="../about/businesses">业务范畴</a></li>
+        	        	<li><a href="../about/history">历史及里程碑</a></li>
+            	    	<li><a href="../about/leadership">领导团队</a></li>
+					</ul>
+                    <ul class="submenu">
+                        <li><a href="../about/culture">文化和价值观</a></li>
+                        <!--<li><a href="../about/sustainability">可持续发展</a></li>-->
+                        <li><a href="../about/integrity">廉正合规</a></li>
+                        <li><a href="../about/faqs">常见问题</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li><span>投资者关系</span>
+        	<div class="submenuWrapper">
+            	<div class="submenuContainer">
+                	<ul class="submenu">
+	                	<li><a href="../ir/home">投资者关系主页</a></li>
+                        <li><a href="../ir/newsevents">投资者新闻及活动</a></li>
+                   		<li><a href="../ir/investorday">投资者日</a></li>
+                   		<!--<li><a href="../ir/agm">年度股东大会</a></li>-->
+        	        	<!--<li><a href="../ir/financial">财务及运营数据</a></li>-->
+                        <li><a href="../ir/earnings">季度业绩</a></li>
+					</ul>
+                    <!--<ul class="submenu">
+					</ul>-->
+                    <ul class="submenu">
+                        <li><a href="../ir/secfilings">美国证交会公告</a></li>
+						<li><a href="../ir/hkexfilings">香港联交所公告</a></li>
+                        <li><a href="../ir/governance">公司治理</a></li>
+						<li><a href="../ir/reports">财务报告</a></li>
+					</ul>
+					<ul class="submenu">		
+                    	<li><a href="https://esg.alibabagroup.com" target="_blank">ESG/可持续发展</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+        <li><span>新闻及媒体资源</span>
+        	<div class="submenuWrapper">
+            	<div class="submenuContainer">
+                	<ul class="submenu">
+                        <li><a href="../news/press">新闻发布</a></li>
+                        <!--<li><a href="http://ar.alibabagroup.com/2015/index.html" target="_blank">电子版年报</a></li>-->
+                        <li><a href="http://alibabanews.com/" target="_blank">阿里足迹新闻网站</a></li>
+                        <li><a href="../news/news">媒体报导</a></li>
+	                    <li><a href="../news/video">视频</a></li>
+					</ul>
+                    <ul class="submenu">
+                        <li><a href="../news/library">媒体资料库</a></li>
+	                    <li><a href="../news/social">社交媒体</a></li>
+						<li><a href="../news/action_covid19">阿里巴巴新冠肺炎抗疫行动</a></li>
+					</ul>
+				</div>
+			</div>
+        </li>
+        <li><span>联系我们</span>
+        	<div class="submenuWrapper">
+            	<div class="submenuContainer">
+                	<ul class="submenu">
+                        <li><a href="../contact/offices">办公地点</a></li>
+                        <li><a href="../contact/contacts#slide_ir" class="hashUrlReload">投资者联系</a></li>
+                        <li><a href="../contact/contacts#slide_media" class="hashUrlReload">媒体联系</a></li>
+                        <li><a href="../contact/contacts#slide_customer" class="hashUrlReload">客户联系</a></li>
+                        </ul>
+                    <ul class="submenu">
+                    	<li><a href="../contact/contacts#slide_law" class="hashUrlReload">国际执法机构用户信息咨询指南</a></li>
+                        <li><a href="../contact/contacts#slide_intellectual" class="hashUrlReload">知识产权保障</a></li>
+					</ul>
+				</div>
+			</div>        
+        </li>
+        <div class="submenuWrapperBg"></div>
+	</ul>
+</div>
+<div class="wrapper"><div class="container" id="error">
+	<div class="err404"><img src="https://docs.alibabagroup.com/assets2/images/cn/global/error.png" /></div>
+    <div class="text">抱歉！页面无法访问</div>
+    <div class="smallText">您要查看的页面不存在，建议您访问我们的<a href="/cn/global/home">首页</a>。</div>
+</div>
+<div class="push"></div>
+</div>
+<div class="footerWrapper">
+	<div class="footer">
+    	<div class="logo"><a href="../global/home"><img src="https://docs.alibabagroup.com/assets2/images/cn/global/logo_footer.png"></a></div>
+        <div class="sitemap">
+        	<div class="col col1">
+				<span class="section">关于我们</span>
+                <ul>
+                	<li><a href="../about/overview">公司简介</a></li>
+                	<li><a href="../about/businesses">业务范畴</a></li>
+                	<li><a href="../about/history">历史及里程碑</a></li>
+                	<li><a href="../about/leadership">领导团队</a></li>
+                	<li><a href="../about/culture">文化和价值观</a></li>
+                	<!--<li><a href="../about/sustainability">可持续发展</a></li>   -->      
+                    <li><a href="../about/integrity">廉正合规</a></li>
+                    <li><a href="../about/faqs">常见问题</a></li>
+                </ul>
+            </div>
+			<div class="col col2">
+				<span class="section">投资者关系</span>
+                <ul>
+                	<li><a href="../ir/home">投资者关系主页</a></li>
+                    <li><a href="../ir/newsevents">投资者新闻及活动</a></li>
+                    <li><a href="../ir/investorday">投资者日</a></li>
+                    <!--<li><a href="../ir/agm">年度股东大会</a></li>-->
+                    <!--<li><a href="../ir/glance">阿里巴巴集团概览</a></li>-->
+                    <!--<li><a href="../ir/financial">财务及运营数据</a></li>-->
+                    <!--<li><a href="../ir/reports">公司年报</a></li>-->
+                    <li><a href="../ir/earnings">季度业绩</a></li>
+                    <li><a href="../ir/secfilings">美国证交会公告</a></li>
+					<li><a href="../ir/hkexfilings">香港联交所公告</a></li>
+                    <!--<li><a href="../ir/sehkfilings">香港交易所公告</a></li>-->
+                    <!--<li><a href="../ir/releases">财务新闻</a></li>-->
+                    <li><a href="../ir/governance">公司治理</a></li>
+                    <!--<li><a href="../ir/stock">股价资讯</a></li>-->
+                    <!--<li><a href="../ir/analyst">分析员资料</a></li>-->		
+					<li><a href="../ir/reports">财务报告</a></li>
+                    <li><a href="https://esg.alibabagroup.com" target="_blank">ESG/可持续发展</a></li>
+                </ul>
+            </div>
+        	<div class="col col3">
+				<span class="section">新闻及媒体资源</span>
+                <ul class="submenu">
+                	<li><a href="../news/press">新闻发布</a></li>
+                	<!--<li><a href="http://ar.alibabagroup.com/2015/index.html" target="_blank">电子版年报</a></li>-->
+                	<li><a href="http://alibabanews.com/" target="_blank">阿里足迹新闻网站</a></li>
+                	<li><a href="../news/news">媒体报导</a></li>
+                    <li><a href="../news/video">视频</a></li>
+                    <li><a href="../news/library">媒体资料库</a></li>
+                    <li><a href="../news/social">社交媒体</a></li>
+					<li><a href="../news/action_covid19">阿里巴巴新冠肺炎抗疫行动</a></li>
+                </ul>
+            </div>
+        	<div class="col col4">
+				<span class="section">联系我们 </span>
+                <ul class="submenu">
+                	<li><a href="../contact/offices">办公地点</a></li>
+                    <li><a href="../contact/contacts#slide_ir" class="hashUrlReload">投资者联系</a></li>
+                	<li><a href="../contact/contacts#slide_media" class="hashUrlReload">媒体联系</a></li>
+                	<li><a href="../contact/contacts#slide_customer" class="hashUrlReload">客户联系</a></li>
+                	<li><a href="../contact/contacts#slide_law" class="hashUrlReload">国际执法机构用户信息咨询指南</a></li>
+                	<li><a href="../contact/contacts#slide_intellectual" class="hashUrlReload">知识产权保障</a></li>
+                </ul>
+                            </div>
+        </div>
+        <hr />
+        <div class="copyright">
+        	<a href="../global/careers">加入我们</a>
+            <span class="separator"> | </span>
+        	<a href="../global/disclaimer">免责声明</a>
+            <span class="separator"> | </span>
+        	<a href="../global/privacy">私隱政策</a>
+            <span class="separator hideIn768Only"> | </span>
+                        <span class="text">版权公告 © 1999-2020 阿里巴巴集团控股有限公司<span class="mobileBreak">及／或其关联公司及特许人。版权所有。</span></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
