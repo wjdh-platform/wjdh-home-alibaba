@@ -7,6 +7,7 @@ $menu_content ='
                 	<ul class="submenu">
 	                	<li><a href="/about/overview.php">公司简介</a></li>
     	            	<li><a href="/about/businesses.php">业务范畴</a></li>
+    	            	<li><a href="/about/productions.php">产品介绍</a></li>
         	        	<!--<li><a href="/about/history.php">历史及里程碑</a></li>-->
             	    	<!--<li><a href="/about/leadership.php">领导团队</a></li>-->
 					</ul>
