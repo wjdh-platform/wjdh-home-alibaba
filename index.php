@@ -50,7 +50,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
 #home.container{position:relative;}
 .wrapper{
 	/*background:#fff1c4;*/
-	background:#fef2c0;
+	background-image:url(../picture/bgc.png);
 }
 #home .text{
 	position:absolute;

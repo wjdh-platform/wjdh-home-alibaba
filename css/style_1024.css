@@ -55,7 +55,7 @@
 }
 
 .nav .menu > li.hover, .nav .menu > li.selected{
-	color:#f36f21;
+	color: #0e417e;
 	background-color:#EFEDCB;
 	background-image:url(../images/nav_arrow_hover.png);
 }
