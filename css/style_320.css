@@ -275,7 +275,7 @@ body > .container
 	background-repeat:no-repeat;
 	background-position:right -10px;
 	font-size:16px;
-	border-bottom:1px solid #FEB887;
+	border-bottom:1px solid #566c87FEB887;
 	background-color:#f60;
 	color:#fff;
 	text-decoration:none;
@@ -292,8 +292,8 @@ body > .container
 {
 	background-image:url(../images/nav_arrow_current_mobile.png);
 	border-bottom:1px solid #F4F3E1;
-	background-color:#E3E6BF;
-	color:#f60;
+	background-color:#f3f9ff;
+	color:#0e417e;
 }
 
 .nav .submenuWrapper{
@@ -306,7 +306,7 @@ body > .container
 	overflow-y:auto;
 	overflow-x:hidden;
 	font-size:19px;
-	background-color:#E3E6BF;
+	background-color:#f3f9ff;
 	
 	padding:13px 0;
 	display:none;
