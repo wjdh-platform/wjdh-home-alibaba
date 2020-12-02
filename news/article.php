@@ -2,9 +2,9 @@
 include $_SERVER['DOCUMENT_ROOT'].'/menu.php'; 
 include $_SERVER['DOCUMENT_ROOT'].'/headerWrapper.php'; 
 include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
-include $_SERVER['DOCUMENT_ROOT'].'/videos.php';
+include $_SERVER['DOCUMENT_ROOT'].'/news.php';
 
-$clip = isset($_GET['clip'])?$_GET['clip']:'xuanchuan';
+$id = isset($_GET['id'])?$_GET['id']:'0';
 
 ?>
 <!doctype html>
@@ -64,32 +64,59 @@ $clip = isset($_GET['clip'])?$_GET['clip']:'xuanchuan';
     <div class="nav">
     <?=$menu_content?>
     </div>
-<div class="wrapper"><div class="container" id="video">
-    <h1 class="title">视频</h1>
-	<div class="videoContainer clearfix">
-		<div class="playerContainer">
-			<video controls poster="<?=$video_path.$clip.'/'.$videos[$clip]['big']?>" controlsList="nodownload">
-				<source src="<?=$video_path.$clip.'/'.$videos[$clip]['url']?>" type="video/mp4">
-			</video> 
-		</div>
-    	<div class="caption">
-        	<h1><?=$videos[$clip]['introduction']?></h1>
-		</div>
-	</div>
-    
-    <div class="videoList clearfix"> 
-    <?php foreach($videos as $k=>$v){  ?>   
-            <div class="clip">
-                <div class="imgWrapper">
-                    <?=($clip==$k)?'':'<a href="?clip='.$k.'">'?><img src="<?=($clip==$k)?$smallplaying:$smallwait?>" class="mask"><?=($clip==$k)?'':'</a>'?>
-                    <img src="<?=$video_path.$k.'/'.$v['small']?>">
-                </div>
-                <div class="caption">
-                    <h1><?=$v['introduction']?></h1>
-                </div>
+    <div class="wrapper"><div class="container" id="integrity">
+	<h1 class="title shownIn320Only">新闻发布</h1>
+	    <div class="articleLeft">
+    	<div class="title">新闻发布</div>
+        <div class="logoArea">
+        	<div><img src="/picture/library_logos_alibababh.png"></div>
+        </div>
+		<div class="contactInfo">
+        	<h2>媒体联络</h2>
+            <div class="contactInfo">
+            	<p>杨哲<br />
+                万家灯火科技（河北）有限责任公司<br />
+                +0335 7108669<br />
+                <a href="mailto:tonyhappystyle@163.com">tonyhappystyle@163.com</a></p>
             </div>
-    <?php } ?>
+            <div class="clearfix"></div>
+        </div>
     </div>
+    
+    <div class="articleMain">
+        <div class="date">
+        <?=$news[$id]['title']?>
+        </div>
+        <h1><?=$news[$id]['heading_article']?></h1>
+        <h2><?=$news[$id]['heading_article2']?></h2>
+        <div class="titlePadding"></div>
+        
+        <div class="photoArea">
+        	<div class="image">
+                <?=$news[$id]['image']?>
+            </div>
+            <div class="caption"></div>
+            <div class="clearfix"></div>
+        </div>
+
+       <div class="clearfix"></div>
+       <?=$news[$id]['content']?>
+		<div class="contactInfo_Tablet">
+        	<h2>媒体联络</h2>
+            <div class="contactInfo">
+            	<p>杨哲<br />
+                万家灯火科技（河北）有限责任公司<br />
+                +0335 7108669<br />
+                <a href="mailto:tonyhappystyle@163.com">tonyhappystyle@163.com</a></p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    
+<style>
+	.remark{ font-size:85%; }
+</style>
 </div>
 <div class="push"></div>
 </div>

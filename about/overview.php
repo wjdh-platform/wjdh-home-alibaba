@@ -11,7 +11,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
 <link rel= "shortcut icon" media="all" type="image/x-icon" href="/favicon.ico" />
-<link rel= "icon" media="all" type="image/vnd.microsoft.icon" href="/favicon.ico" /><title>阿里巴巴集团</title>
+<link rel= "icon" media="all" type="image/vnd.microsoft.icon" href="/favicon.ico" /><title>万家灯火科技</title>
 <link href="/css/jquery.swiper.css" rel="stylesheet" type="text/css">
 <link href="/css/easydropdown.css" rel="stylesheet" type="text/css">
 <link href="/css/magnific-popup.css" rel="stylesheet" type="text/css">
@@ -67,11 +67,11 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
             </div>
         	<div class="col">
                 <div class="text" id="text1">
-                	<h2>阿里巴巴集团的使命是让天下没有难做的生意。</h2>
-                    <p>我们旨在助力企业，帮助其变革营销、销售和经营的方式，提升其效率。我们为商家、品牌及其他企业提供技术基础设施以及营销平台，帮助其借助新技术的力量与用户和客户进行互动，并更高效地进行经营。</p>
-                    <p>我们的业务包括核心商业、云计算、数字媒体及娱乐以及创新业务。除此之外， 我们的非并表关联方蚂蚁集团为我们平台上的消费者和商家提供支付服务和金融服务。围绕着我们的平台与业务，一个涵盖了消费者、商家、品牌、零售商、第三方服务提供商、战略合作伙伴及其他企业的数字经济体已经建立。</p>
-					<p>截至2020年3月31 日止12个月期间，阿里巴巴数字经济体产生了人民币70,530亿元（10,000亿美元*）的GMV，主要包括通过我们的中国零售市场交易的人民币65,890亿元（9,450亿美元）的GMV，以及通过我们的国际零售市场和本地生活服务交易的GMV。</p>
-					<p class="remark">* 2020财年的年度GMV美元金额代表截至2019年6月30日、9月30日和12月31日及2020年3月31日止各季度的GMV美元金额之和，均按照每一相关季度的日均汇率由人民币换算得出。</p>
+                	<h2>万家灯火科技的使命是构筑新时代的智慧城市。</h2>
+                    <p>我们旨在助力城市发展，帮助其变革交通、住宅和商业的运行方式，提升整个城市的运转效率。我们为公安、民政及其他企业提供技术基础设施以及数据平台，帮助其借助新技术的力量与城市居民进行互动，并更高效地进行管理。</p>
+                    <p>我们的业务包括社区信息采集、人员车辆的物联网智能管控、社区大数据深度挖掘及社区物业流程的数字化。除此之外， 我们在银行人脸识别、工厂数字管理、校园智慧管控、VR全景教学培训等业务有着新的扩展，主要客户是公安、银行、物业、工厂、学校。围绕着我们的平台与业务，一个涵盖了人脸识别、大数据分析、设备整合、物业智慧管理、第三方服务提供商、战略合作伙伴及其他企业的数字经济体已经建立。</p>
+					<p>截至2020年11月30日止，万家灯火科技已经为唐山迁安的建立了成熟的智慧社区网络，是唐山唯一的一家有能力与公安建立数据互联的企业。</p>
+					<p class="remark">* 为贯彻习近平总书记推动城市治理体系和治理能力现代化的智慧城市指导思想，全国多省公安厅印发了《全省公安机关加快推进智慧安防建设的工作方案》文件。</p>
 				</div>
 			</div>
         </div>
@@ -82,11 +82,11 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
         	<div class="col l">
             	<div class="text" id="text2">
             		<h2>我们的愿景</h2>
-					<p>我们不追求大，不追求强；我们追求成为一家活102年的好公司。我们旨在构建未来的商业基础设施。我们的愿景是让客户相会、工作和生活在阿里巴巴。</p>
+					<p>我们不追求独大，不追求最强；我们追求成为一家让所有合作伙伴互利共赢的好公司。我们旨在构建未来的数字化基础设施。我们的愿景是让智慧城市成为新时代财富的源泉。</p>
 				</div>
             	<div class="text" id="text3">
-            		<h2 class="orangeHeading">102年：</h2>
-					<p>阿里巴巴集团创立于1999 年，持续发展102 年就意味着我们将跨越三个世纪，取得少有企业能实现的成就。我们的文化、商业模式和系统的建立都要经得起时间考验，让我们得以长期可持续发展。阿里巴巴的终极目标，就是为社会创造价值，更好地解决社会问题，变阿里巴巴的能力为中小企业发展的能力，为整个社会进步的动力。</p>
+            		<h2 class="orangeHeading">互利共赢：</h2>
+					<p>万家灯火科技创立于2020年，之前经过了6年的筹备，一经成立，立即成为京津冀地区技术最先进的智慧。我们的文化、商业模式和系统的建立都要经得起时间考验，让我们得以长期可持续发展。阿里巴巴的终极目标，就是为社会创造价值，更好地解决社会问题，变阿里巴巴的能力为中小企业发展的能力，为整个社会进步的动力。</p>
 				</div>
                 <div class="text" id="text4">
             		<h2 class="orangeHeading">相会在阿里巴巴：</h2>

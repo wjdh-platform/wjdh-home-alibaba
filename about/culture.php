@@ -10,7 +10,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
 <link rel= "shortcut icon" media="all" type="image/x-icon" href="/favicon.ico" />
-<link rel= "icon" media="all" type="image/vnd.microsoft.icon" href="/favicon.ico" /><title>阿里巴巴集团</title>
+<link rel= "icon" media="all" type="image/vnd.microsoft.icon" href="/favicon.ico" /><title>万家灯火科技</title>
 <link href="/css/jquery.swiper.css" rel="stylesheet" type="text/css">
 <link href="/css/easydropdown.css" rel="stylesheet" type="text/css">
 <link href="/css/magnific-popup.css" rel="stylesheet" type="text/css">
