@@ -93,7 +93,7 @@ $id = isset($_GET['id'])?$_GET['id']:'0';
         
         <div class="photoArea">
         	<div class="image">
-                <?=$news[$id]['image']?>
+                <img src="<?=$news[$id]['image']?>">
             </div>
             <div class="caption"></div>
             <div class="clearfix"></div>
