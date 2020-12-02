@@ -10,6 +10,12 @@ $videos = [
         'small'=>'small.png',
         'introduction' => '智慧小区宣传片（2020年6月3日）',
     ],
+    'lingdao1' =>[
+        'url'=>'lingdao1.mp4',
+        'big'=>'big.png',
+        'small'=>'small.png',
+        'introduction' => '智慧小区宣传片（2020年6月3日）',
+    ],
     'lidaoshicha' =>[
         'url'=>'lingdao.mp4',
         'big'=>'big.png',
