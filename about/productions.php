@@ -57,8 +57,8 @@ include $_SERVER['DOCUMENT_ROOT'].'/productions.php';
     </div>
 <div class="wrapper"><div class="container nopadding" id="businesses">
 	<div class="container">
-        <h1 class="title">业务范畴</h1>
-        <p>万家灯火科技经营多项业务，另外也有赖关联公司的业务和服务支持我们智慧城市大平台的运作。万家灯火科技智慧城市大平台的主要业务包括：</p>
+        <h1 class="title">产品介绍</h1>
+        <p>我公司自主研发的人脸识别分析系统，经过多年的改进，系统硬件已经全部研发完成。2020年3月获得物联网系统、智慧社区系统国家著作权，并于3月份正式投放市场。实现了轻量级、低成本、高兼容的高效人脸识别分析系统，与国内一线厂家相比，降低成本70%以上</p>
     </div>
 
     <div class="gridWrapper clearfix">

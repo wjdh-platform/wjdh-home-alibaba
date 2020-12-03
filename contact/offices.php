@@ -78,13 +78,13 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
             <div class="block">
                 <div class="hr">
                     <h3 class="office">秦皇岛经济技术开发区：</h3>
-                    <p class="info">中国河北省秦皇岛市经济技术开发区<br>龙海道69号科技大厦604<br><br/>电话：0335-7108669<br>企业邮箱：mg@ma.cool</p>
+                    <p class="info">中国河北省秦皇岛市经济技术开发区<br>龙海道69号科技大厦604<br><br/>电话：0335-7108669<br>企业邮箱：mg@mg.cool</p>
                 </div>
             </div>
             <div class="block">
                 <div class="hr">
                     <h3 class="office">唐山迁安市：</h3>
-                    <p class="info">中国河北迁安市永顺街道办事处<br>钢城大街866号创客广场A座6012<br><br/>电话：0335-7108669<br>企业邮箱：mg@ma.cool</p>
+                    <p class="info">中国河北迁安市永顺街道办事处<br>钢城大街866号创客广场A座6012<br><br/>电话：0335-7108669<br>企业邮箱：mg@mg.cool</p>
                 </div>
 		</div>
 	</div>

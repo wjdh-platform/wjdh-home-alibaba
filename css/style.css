@@ -1030,28 +1030,23 @@ table.partnership tbody td:last-child {
 #businesses.container{min-height:800px;}
 #businesses .container{padding-bottom:13px;}
 
-#businesses #logo_taobao{background:url(../images/businesses_taobao.png) no-repeat;}
-#businesses #logo_taobao:hover{background:url(../images/businesses_taobao_hover.png) no-repeat;}
-#businesses #logo_taobao.act{background:url(../images/businesses_taobao_act.png) no-repeat;}
+#businesses #logo_taobao{background:url(../images/shexiangji.png) no-repeat;}
+#businesses #logo_taobao.act{background:url(../images/shexiangji-act.png) no-repeat;}
 #businesses #logo_taobao .desc{top:0px;left:320px;}
 
-#businesses #logo_tmall{background:url(../images/businesses_tmall.png) no-repeat;}
-#businesses #logo_tmall:hover{background:url(../images/businesses_tmall_hover.png) no-repeat;}
-#businesses #logo_tmall.act{background:url(../images/businesses_tmall_act.png) no-repeat;}
+#businesses #logo_tmall{background:url(../images/menjinji.png) no-repeat;}
+#businesses #logo_tmall.act{background:url(../images/menjinji-act.png) no-repeat;}
 #businesses #logo_tmall .desc{top:282px;left:0px;}
 
-#businesses #logo_freshippo{background:url(../images/businesses_freshippo.png) no-repeat;}
-#businesses #logo_freshippo:hover{background:url(../images/businesses_freshippo_hover.png) no-repeat;}
-#businesses #logo_freshippo.act{background:url(../images/businesses_freshippo_act.png) no-repeat;}
+#businesses #logo_freshippo{background:url(../images/menjinduijiang.png) no-repeat;}
+#businesses #logo_freshippo.act{background:url(../images/menjinduijiang-act.png) no-repeat;}
 #businesses #logo_freshippo .desc{top:0px;left:-640px;}
 
 /*#businesses #logo_freshippo{background:url(../images/businesses_freshippo.png) no-repeat;}
-#businesses #logo_freshippo:hover{background:url(../images/businesses_freshippo_hover.png) no-repeat;}
 #businesses #logo_freshippo.act{background:url(../images/businesses_freshippo_act.png) no-repeat;}
 #businesses #logo_freshippo .desc{top:0px;left:-640px;}*/
 
 /*#businesses #logo_juhuasuan{background:url(../images/businesses_juhuasuan.png) no-repeat;}
-#businesses #logo_juhuasuan:hover{background:url(../images/businesses_juhuasuan_hover.png) no-repeat;}
 #businesses #logo_juhuasuan.act{background:url(../images/businesses_juhuasuan_act.png) no-repeat;}
 #businesses #logo_juhuasuan .desc{top:0px;left:-640px;}*/
 
@@ -1059,34 +1054,28 @@ table.partnership tbody td:last-child {
 #businesses #logo_etao:hover,#businesses #logo_etao.act{background:url(../images/businesses_etao_hover.png) no-repeat;}
 #businesses #logo_etao .desc{top:283px;left:321px;}*/
 
-#businesses #logo_aliexpress{background:url(../images/businesses_aliexpress.png) no-repeat;}
-#businesses #logo_aliexpress:hover{background:url(../images/businesses_aliexpress_hover.png) no-repeat;}
-#businesses #logo_aliexpress.act{background:url(../images/businesses_aliexpress_act.png) no-repeat;}
+#businesses #logo_aliexpress{background:url(../images/zhanshixitong.png) no-repeat;}
+#businesses #logo_aliexpress.act{background:url(../images/zhanshixitong-act.png) no-repeat;}
 #businesses #logo_aliexpress .desc{top:0px;left:320px;}
 
-#businesses #logo_lazada{background:url(../images/businesses_lazada.png) no-repeat;}
-#businesses #logo_lazada:hover{background:url(../images/businesses_lazada_hover.png) no-repeat;}
-#businesses #logo_lazada.act{background:url(../images/businesses_lazada_act.png) no-repeat;}
+#businesses #logo_lazada{background:url(../images/heyanxitong.png) no-repeat;}
+#businesses #logo_lazada.act{background:url(../images/heyanxitong-act.png) no-repeat;}
 #businesses #logo_lazada .desc{top:282px;left:0px;}
 
 /*#businesses #logo_lazada{background:url(../images/businesses_lazada.png) no-repeat;}
-#businesses #logo_lazada:hover{background:url(../images/businesses_lazada_hover.png) no-repeat;}
 #businesses #logo_lazada.act{background:url(../images/businesses_lazada_act.png) no-repeat;}
 #businesses #logo_lazada .desc{top:282px;left:0px;}*/
 
-#businesses #logo_alibaba{background:url(../images/businesses_alibaba.png) no-repeat;}
-#businesses #logo_alibaba:hover{background:url(../images/businesses_alibaba_hover.png) no-repeat;}
-#businesses #logo_alibaba.act{background:url(../images/businesses_alibaba_act.png) no-repeat;}
+#businesses #logo_alibaba{background:url(../images/saomajiaofei.png) no-repeat;}
+#businesses #logo_alibaba.act{background:url(../images/saomajiaofei-act.png) no-repeat;}
 #businesses #logo_alibaba .desc{top:0px;left:-640px;}
 
 #businesses #logo_1688{background:url(../images/businesses_1688.png) no-repeat;}
-#businesses #logo_1688:hover{background:url(../images/businesses_1688_hover.png) no-repeat;}
-#businesses #logo_1688.act{background:url(../images/businesses_1688_act.png) no-repeat;}
+#businesses #logo_1688.act{background:url(../images/businesses_1688-act.png) no-repeat;}
 #businesses #logo_1688 .desc{top:0px;left:320px;}
 
-#businesses #logo_eleme{background:url(../images/businesses_eleme.png) no-repeat;}
-#businesses #logo_eleme:hover{background:url(../images/businesses_eleme_hover.png) no-repeat;}
-#businesses #logo_eleme.act{background:url(../images/businesses_eleme_act.png) no-repeat;}
+#businesses #logo_eleme{background:url(../images/renyuanheyan.png) no-repeat;}
+#businesses #logo_eleme.act{background:url(../images/renyuanheyan-act.png) no-repeat;}
 #businesses #logo_eleme .desc{top:282px;left:0px;}
 
 /*#businesses #logo_eleme{background:url(../images/businesses_eleme.png) no-repeat;}
@@ -1094,9 +1083,8 @@ table.partnership tbody td:last-child {
 #businesses #logo_eleme.act{background:url(../images/businesses_eleme_act.png) no-repeat;}
 #businesses #logo_eleme .desc{top:282px;left:0px;}*/
 
-#businesses #logo_youku{background:url(../images/businesses_youku.png) no-repeat;}
-#businesses #logo_youku:hover{background:url(../images/businesses_youku_hover.png) no-repeat;}
-#businesses #logo_youku.act{background:url(../images/businesses_youku_act.png) no-repeat;}
+#businesses #logo_youku{background:url(../images/zhongduanxianshiqi.png) no-repeat;}
+#businesses #logo_youku.act{background:url(../images/zhongduanxianshiqi-act.png) no-repeat;}
 #businesses #logo_youku .desc{top:0px;left:-640px;}
 
 /*#businesses #logo_youku{background:url(../images/businesses_youku.png) no-repeat;}
@@ -1104,9 +1092,8 @@ table.partnership tbody td:last-child {
 #businesses #logo_youku.act{background:url(../images/businesses_youku_act.png) no-repeat;}
 #businesses #logo_youku .desc{top:0px;left:-640px;}*/
 
-#businesses #logo_dingtalk{background:url(../images/businesses_dingtalk.png) no-repeat;}
-#businesses #logo_dingtalk:hover{background:url(../images/businesses_dingtalk_hover.png) no-repeat;}
-#businesses #logo_dingtalk.act{background:url(../images/businesses_dingtalk_act.png) no-repeat;}
+#businesses #logo_dingtalk{background:url(../images/qianduanyasuo.png) no-repeat;}
+#businesses #logo_dingtalk.act{background:url(../images/qianduanyasuo-act.png) no-repeat;}
 #businesses #logo_dingtalk .desc{top:0px;left:320px;}
 
 /*#businesses #logo_dingtalk{background:url(../images/businesses_dingtalk.png) no-repeat;}
@@ -1114,9 +1101,8 @@ table.partnership tbody td:last-child {
 #businesses #logo_dingtalk.act{background:url(../images/businesses_dingtalk_act.png) no-repeat;}
 #businesses #logo_dingtalk .desc{top:0px;left:320px;}*/
 
-#businesses #logo_alimama{background:url(../images/businesses_alimama.png) no-repeat;}
-#businesses #logo_alimama:hover{background:url(../images/businesses_alimama_hover.png) no-repeat;}
-#businesses #logo_alimama.act{background:url(../images/businesses_alimama_act.png) no-repeat;}
+#businesses #logo_alimama{background:url(../images/renlianshibie.png) no-repeat;}
+#businesses #logo_alimama.act{background:url(../images/renlianshibie-act.png) no-repeat;}
 #businesses #logo_alimama .desc{top:-266px;left:0px;}
 
 #businesses #logo_aliyun{background:url(../images/businesses_aliyun.png) no-repeat;}
