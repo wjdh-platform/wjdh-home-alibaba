@@ -5,7 +5,9 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
 include $_SERVER['DOCUMENT_ROOT'].'/news.php';
 
 $id = isset($_GET['id'])?$_GET['id']:'0';
-
+require_once $_SERVER['DOCUMENT_ROOT']."/weixin/jssdk.php";
+$jssdk = new JSSDK("wx2c261bf49c6bc1f1", "e5ab39828ddb2cb26886f780f8d53b00");
+$signPackage = $jssdk->GetSignPackage();
 ?>
 <!doctype html>
 <html lang="zh-CN">
@@ -65,11 +67,11 @@ $id = isset($_GET['id'])?$_GET['id']:'0';
     <?=$menu_content?>
     </div>
     <div class="wrapper"><div class="container" id="integrity">
-	<h1 class="title shownIn320Only">新闻发布</h1>
+	<h1 class="title shownIn320Only">图片新闻</h1>
 	    <div class="articleLeft">
     	<div class="title">新闻发布</div>
         <div class="logoArea">
-        	<div><img src="/picture/library_logos_alibababh.png"></div>
+        	<div><img src="https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/picture/library_logos_wjdh.png"></div>
         </div>
 		<div class="contactInfo">
         	<h2>媒体联络</h2>
@@ -77,7 +79,7 @@ $id = isset($_GET['id'])?$_GET['id']:'0';
             	<p>杨哲<br />
                 万家灯火科技（河北）有限责任公司<br />
                 +0335 7108669<br />
-                <a href="mailto:tonyhappystyle@163.com">tonyhappystyle@163.com</a></p>
+                <a href="mailto:mg@mg.cool">mg@mg.cool</a></p>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -87,27 +89,20 @@ $id = isset($_GET['id'])?$_GET['id']:'0';
         <div class="date">
         <?=$news[$id]['title']?>
         </div>
-        <h1><?=$news[$id]['heading_article']?></h1>
-        <h2><?=$news[$id]['heading_article2']?></h2>
+        <h1 style="font-size:18px;"><?=$news[$id]['heading_article']?></h1>
+        <h2 style="font-size:14px;"><?=$news[$id]['heading_article2']?></h2>
         <div class="titlePadding"></div>
-        
-        <div class="photoArea">
-        	<div class="image">
-                <img src="<?=$news[$id]['image']?>">
-            </div>
-            <div class="caption"></div>
-            <div class="clearfix"></div>
-        </div>
 
        <div class="clearfix"></div>
        <?=$news[$id]['content']?>
+
 		<div class="contactInfo_Tablet">
         	<h2>媒体联络</h2>
             <div class="contactInfo">
-            	<p>杨哲<br />
-                万家灯火科技（河北）有限责任公司<br />
+            	<p>魏依燃<br />
+                万家灯火科技宣传部<br/>
                 +0335 7108669<br />
-                <a href="mailto:tonyhappystyle@163.com">tonyhappystyle@163.com</a></p>
+                <a href="mailto:mg@mg.cool">mg@mg.cool</a></p>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -124,4 +119,52 @@ $id = isset($_GET['id'])?$_GET['id']:'0';
     <?=$footerWrapper?>
 </div>
 </body>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+  /*
+   * 注意：
+   * 1. 所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。
+   * 2. 如果发现在 Android 不能分享自定义内容，请到官网下载最新的包覆盖安装，Android 自定义分享接口需升级至 6.0.2.58 版本及以上。
+   * 3. 常见问题及完整 JS-SDK 文档地址：http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+   *
+   * 开发中遇到问题详见文档“附录5-常见错误及解决办法”解决，如仍未能解决可通过以下渠道反馈：
+   * 邮箱地址：weixin-open@qq.com
+   * 邮件主题：【微信JS-SDK反馈】具体问题
+   * 邮件内容说明：用简明的语言描述问题所在，并交代清楚遇到该问题的场景，可附上截屏图片，微信团队会尽快处理你的反馈。
+   */
+  wx.config({
+    debug: false,
+    appId: '<?php echo $signPackage["appId"];?>',
+    timestamp: <?php echo $signPackage["timestamp"];?>,
+    nonceStr: '<?php echo $signPackage["nonceStr"];?>',
+    signature: '<?php echo $signPackage["signature"];?>',
+    jsApiList: [
+        'onMenuShareTimeline',
+        'onMenuShareAppMessage'
+    ]
+  });
+  wx.ready(function () {
+    var shareData = {
+    title: '<?=$news[$id]['shared_title']?>',
+    desc: '<?=$news[$id]['heading_article2']?>',
+    link: 'https://mg.cool/news/article.php?id='+<?=$id?>,
+    imgUrl: '<?=$news[$id]['image']?>',
+        
+    trigger: function() {
+            console.log('点击分享');
+        },
+        success: function() {
+            console.log('分享成功');
+        },
+        cancel: function() {
+            console.log('分享取消');
+        },
+        fail: function() {
+            console.log('分享失败');
+        }
+    };
+    wx.onMenuShareAppMessage(shareData);
+    wx.onMenuShareTimeline(shareData);
+  });
+</script>
 </html>

@@ -59,7 +59,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
         <h1 class="title">办公地点</h1>
         <p>以下是万家灯火科技（河北）有限责任公司的主要办公地点：</p>
         <div class="imgWrapper">
-            <img src="/picture/offices_banner.jpg">
+            <img src="https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/picture/offices_banner.jpg">
             <div class="textWrapper">
                 <div class="text">
                 	<h2>万家灯火科技（河北）有限责任公司</h2>
@@ -78,19 +78,19 @@ include $_SERVER['DOCUMENT_ROOT'].'/footerWrapper.php';
             <div class="block">
                 <div class="hr">
                     <h3 class="office">秦皇岛经济技术开发区：</h3>
-                    <p class="info">中国河北省秦皇岛市经济技术开发区<br>龙海道69号科技大厦604<br><br/>电话：0335-7108669<br>
+                    <p class="info">中国河北省秦皇岛市经济技术开发区<br>龙海道69号科技大厦604<br><br/>电话：0335-7108669<br></p>
                 </div>
             </div>
             <div class="block">
                 <div class="hr">
-                    <h3 class="office">唐山迁安市：</h3>
-                    <p class="info">中国河北迁安市永顺街道办事处<br>钢城大街866号创客广场A座6012<br><br/>电话：15131512234<br>
+                    <h3 class="office">唐山分公司地址：</h3>
+                    <p class="info">中国河北迁安市永顺街道办事处<br>钢城大街866号创客广场A座6016<br><br/>电话：15131512234<br></p>
                 </div>
         </div>
         <div class="block">
                 <div class="hr">
-                    <h3 class="office">上海市：</h3>
-                    <p class="info">中国上海市嘉定工业区<br>叶城路925号B区4幢J<br><br/>电话：16685108888<br>
+                    <h3 class="office">上海分公司地址：</h3>
+                    <p class="info">中国上海市嘉定工业区<br>叶城路925号B区4幢J<br><br/>电话：16685108888<br></p>
                 </div>
 		</div>
 	</div>
