@@ -27,6 +27,9 @@ $menu_content ='
 				<li><a href="/about/productions.php">产品介绍</a></li>
 				</ul>
 				<ul class="submenu">
+				<li><a href="/about/software.php">软件介绍</a></li>
+				</ul>
+				<ul class="submenu">
 					<!--<li><a href="/news/library.php">媒体资料库</a></li>-->
 				</ul>
 			</div>

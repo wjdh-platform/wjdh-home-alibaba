@@ -1033,21 +1033,21 @@ table.partnership tbody td:last-child {
 #businesses .container{padding-bottom:13px;}
 
 #businesses #logo_taobao{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/shexiangji.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/shexiangji-mobile.png) no-repeat;}
-#businesses #logo_taobao:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/shexiangji-act.png) no-repeat;} */
-#businesses #logo_taobao.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/shexiangji.png) no-repeat;}
+/* #businesses #logo_taobao:mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/shexiangji-hover.png) no-repeat;}*/
+#businesses #logo_taobao:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/shexiangji-hover.png) no-repeat;}  
+#businesses #logo_taobao.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/shexiangji-act.png) no-repeat;}
 #businesses #logo_taobao .desc{top:0px;left:320px;}
 
 #businesses #logo_tmall{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinji.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinji-mobile.png) no-repeat;}
-#businesses #logo_tmall:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinji-mobile.png) no-repeat;} */
-#businesses #logo_tmall.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinji.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinji-mobile.png) no-repeat;} */
+#businesses #logo_tmall:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinji-hover.png) no-repeat;} 
+#businesses #logo_tmall.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinji-act.png) no-repeat;}
 #businesses #logo_tmall .desc{top:282px;left:0px;}
 
 #businesses #logo_freshippo{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinduijiang.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinduijiang-mobile.png) no-repeat;}
-#businesses #logo_freshippo:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinduijiang-mobile.png) no-repeat;} */
-#businesses #logo_freshippo.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinduijiang.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinduijiang-mobile.png) no-repeat;} */
+#businesses #logo_freshippo:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinduijiang-hover.png) no-repeat;} 
+#businesses #logo_freshippo.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/menjinduijiang-act.png) no-repeat;}
 #businesses #logo_freshippo .desc{top:0px;left:-640px;}
 
 /*#businesses #logo_freshippo{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_freshippo.png) no-repeat;}
@@ -1063,15 +1063,15 @@ table.partnership tbody td:last-child {
 #businesses #logo_etao .desc{top:283px;left:321px;}*/
 
 #businesses #logo_aliexpress{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhanshixitong.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhanshixitong-mobile.png) no-repeat;}
-#businesses #logo_aliexpress:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhanshixitong-mobile.png) no-repeat;} */
-#businesses #logo_aliexpress.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhanshixitong.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhanshixitong-mobile.png) no-repeat;}*/
+#businesses #logo_aliexpress:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhanshixitong-hover.png) no-repeat;} 
+#businesses #logo_aliexpress.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhanshixitong-act.png) no-repeat;}
 #businesses #logo_aliexpress .desc{top:0px;left:320px;}
 
 #businesses #logo_lazada{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/heyanxitong.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/heyanxitong-mobile.png) no-repeat;}
-#businesses #logo_lazada:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/heyanxitong-mobile.png) no-repeat;} */
-#businesses #logo_lazada.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/heyanxitong.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/heyanxitong-mobile.png) no-repeat;}*/
+#businesses #logo_lazada:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/heyanxitong-hover.png) no-repeat;} 
+#businesses #logo_lazada.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/heyanxitong-act.png) no-repeat;}
 #businesses #logo_lazada .desc{top:282px;left:0px;}
 
 /*#businesses #logo_lazada{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_lazada.png) no-repeat;}
@@ -1079,21 +1079,21 @@ table.partnership tbody td:last-child {
 #businesses #logo_lazada .desc{top:282px;left:0px;}*/
 
 #businesses #logo_alibaba{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/saomajiaofei.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/saomajiaofei-mobile.png) no-repeat;}
-#businesses #logo_alibaba:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/saomajiaofei-mobile.png) no-repeat;} */
-#businesses #logo_alibaba.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/saomajiaofei.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/saomajiaofei-mobile.png) no-repeat;}*/
+#businesses #logo_alibaba:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/saomajiaofei-hover.png) no-repeat;} 
+#businesses #logo_alibaba.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/saomajiaofei-act.png) no-repeat;}
 #businesses #logo_alibaba .desc{top:0px;left:-640px;}
 
 #businesses #logo_1688{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_1688.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses-mobile.png) no-repeat;}
-#businesses #logo_1688:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_1688-mobile.png) no-repeat;} */
-#businesses #logo_1688.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_1688.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses-mobile.png) no-repeat;}*/
+#businesses #logo_1688:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_1688-hover.png) no-repeat;} 
+#businesses #logo_1688.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_1688-act.png) no-repeat;}
 #businesses #logo_1688 .desc{top:0px;left:320px;}
 
 #businesses #logo_eleme{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renyuanheyan.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renyuanheyan-mobile.png) no-repeat;}
-#businesses #logo_elema:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renyuanheyan-mobile.png) no-repeat;} */
-#businesses #logo_eleme.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renyuanheyan.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renyuanheyan-mobile.png) no-repeat;}*/
+#businesses #logo_elema:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renyuanheyan-hover.png) no-repeat;} 
+#businesses #logo_eleme.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renyuanheyan-act.png) no-repeat;}
 #businesses #logo_eleme .desc{top:282px;left:0px;}
 
 /*#businesses #logo_eleme{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_eleme.png) no-repeat;}
@@ -1102,9 +1102,9 @@ table.partnership tbody td:last-child {
 #businesses #logo_eleme .desc{top:282px;left:0px;}*/
 
 #businesses #logo_youku{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhongduanxianshiqi.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhongduanxianqi-mobile.png) no-repeat;}
-#businesses #logo_youku:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhongduanxianshiqi-mobile.png) no-repeat;} */
-#businesses #logo_youku.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhongduanxianshiqi.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhongduanxianqi-mobile.png) no-repeat;}*/
+#businesses #logo_youku:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhongduanxianshiqi-hover.png) no-repeat;} 
+#businesses #logo_youku.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/zhongduanxianshiqi-act.png) no-repeat;}
 #businesses #logo_youku .desc{top:0px;left:-640px;}
 
 /*#businesses #logo_youku{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_youku.png) no-repeat;}
@@ -1113,9 +1113,9 @@ table.partnership tbody td:last-child {
 #businesses #logo_youku .desc{top:0px;left:-640px;}*/
 
 #businesses #logo_dingtalk{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/qianduanyasuo.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/qianduanyasuo-mobile.png) no-repeat;}
-#businesses #logo_dingtalk:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/qianduanyasuo-mobile.png) no-repeat;} */
-#businesses #logo_dingtalk.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/qianduanyasuo.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/qianduanyasuo-mobile.png) no-repeat;}*/
+#businesses #logo_dingtalk:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/qianduanyasuo-hover.png) no-repeat;} 
+#businesses #logo_dingtalk.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/qianduanyasuo-act.png) no-repeat;}
 #businesses #logo_dingtalk .desc{top:0px;left:320px;}
 
 /*#businesses #logo_dingtalk{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_dingtalk.png) no-repeat;}
@@ -1124,14 +1124,14 @@ table.partnership tbody td:last-child {
 #businesses #logo_dingtalk .desc{top:0px;left:320px;}*/
 
 #businesses #logo_alimama{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renlianshibie.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renlianshibie-mobile.png) no-repeat;}
-#businesses #logo_alimama:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renlianshibie-mobile.png) no-repeat;} */
-#businesses #logo_alimama.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renlianshibie.png) no-repeat;}
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renlianshibie-mobile.png) no-repeat;}*/
+#businesses #logo_alimama:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renlianshibie-hover.png) no-repeat;} 
+#businesses #logo_alimama.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/renlianshibie-act.png) no-repeat;}
 #businesses #logo_alimama .desc{top:-266px;left:0px;}
 
 #businesses #logo_aliyun{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_aliyun.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses-mobile.png) no-repeat;}
-#businesses #logo_aliyun:hover{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_aliyun_mobile.png) no-repeat;} */
+/* #businesses #logo_taobao:.mobile{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses-mobile.png) no-repeat;}*/
+#businesses #logo_aliyun:hover{background:url(https://face-100k/wjdh-platform/wjdh-home/images/qianduanyasuo-hover.png) no-repeat;} 
 #businesses #logo_aliyun.act{background:url(https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/images/businesses_aliyun.png) no-repeat;}
 #businesses #logo_aliyun .desc{top:0px;left:-640px;}
 
