@@ -71,7 +71,7 @@ $signPackage = $jssdk->GetSignPackage();
 	    <div class="articleLeft">
     	<div class="title">新闻发布</div>
         <div class="logoArea">
-        	<div><img src="https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/picture/library_logos_wjdh.png"></div>
+        	<div><img src="/picture/library_logos_wjdh.png"></div>
         </div>
 		<div class="contactInfo">
         	<h2>媒体联络</h2>

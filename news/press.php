@@ -75,7 +75,7 @@ $(function(){
         <div class="heading"><?=$v['heading']?></div>
         <div class="lower">
             <a href="/news/article.php?id=<?=$k?>" target="_blank" class="link">查看</a>
-            <img src="https://face-100k.oss-cn-beijing.aliyuncs.com/wjdh-platform/wjdh-home/picture/press_logo_wjdh.png" />
+            <img src="/picture/press_logo_wjdh.png" />
         </div>
     </div>
 <?php } ?>
