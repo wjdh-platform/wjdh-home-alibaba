@@ -1033,10 +1033,9 @@ table.partnership tbody td:last-child {
 #businesses .container{padding-bottom:13px;}
 
 #businesses #logo_taobao{background:url(/images/shexiangji.png) no-repeat;}
-/* #businesses #logo_taobao:.mobile{background:url(/images/shexiangji-mobile.png) no-repeat;} */
-#businesses #logo_taobao.act{background:url(/images/shexiangji-mobile.png) no-repeat;}
-#businesses #logo_taobao:hover{background:url(/images/shexiangji-hover.png) no-repeat;}  
 #businesses #logo_taobao.act{background:url(/images/shexiangji-act.png) no-repeat;}
+#businesses #logo_taobao:hover{background:url(/images/shexiangji-hover.png) no-repeat;}
+#businesses #logo_taobao.act:hover{background:url(/images/shexiangji-act.png) no-repeat;}
 #businesses #logo_taobao .desc{top:0px;left:320px;}
 
 #businesses #logo_tmall{background:url(/images/menjinji.png) no-repeat;}

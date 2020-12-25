@@ -58,8 +58,8 @@ include $_SERVER['DOCUMENT_ROOT'].'/software.php';
     </div>
 <div class="wrapper"><div class="container nopadding" id="businesses">
 	<div class="container">
-        <h1 class="title">产品介绍</h1>
-        <p>1我公司自主研发的人脸识别分析系统，经过多年的改进，系统硬件已经全部研发完成。2020年3月获得物联网系统、智慧社区系统国家著作权，并于3月份正式投放市场。实现了轻量级、低成本、高兼容的高效人脸识别分析系统，与国内一线厂家相比，降低成本70%以上</p>
+        <h1 class="title">软件介绍</h1></div>
+        <p>1我公司自主研发的人脸识别分析系统ehuiwfur，经过多年的改进，系统硬件已经全部研发完成。2020年3月获得物联网系统、智慧社区系统国家著作权，并于3月份正式投放市场。实现了轻量级、低成本、高兼容的高效人脸识别分析系统，与国内一线厂家相比，降低成本70%以上</p>
     </div>
 
     <div class="gridWrapper clearfix">
